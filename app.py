@@ -1,4 +1,4 @@
-import dotenv
+import dotenv from python-dotenv # type: ignore
 from dotenv import load_dotenv
 
 load_dotenv()  # take environment variables from .env.
